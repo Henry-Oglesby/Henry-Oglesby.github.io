@@ -1,0 +1,20 @@
+---
+title: "Henry Oglesby"
+image: Headshot.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Henry-Oglesby
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/henry-oglesby-96b2a2383
+    - icon: inboxes
+      text: 832-525-9079
+      href: mailto:hoglesby@uark.edu
+---
+I'm an Industrial Engineering student at the University of 
+Arkansas interested in engineering sales, where I can combine technical problem-solving with communication
+and client relationships. This site showcases my projects and resume.
+
