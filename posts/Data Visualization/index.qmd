@@ -1,5 +1,5 @@
 ---
-title: "What Makes a Movie Successful? A Look at Box Office Data"
+title: "Movie Data Visualization"
 subtitle: "Opening weekends, runtimes, genres, and critic ratings"
 author:
   - Henry Oglesby
@@ -22,48 +22,60 @@ image: opening-weekend.png
 
 ## The Data Set
 
-We used a movie data set with information on popular films released from the late 1990s through 2026. Each row is one movie. The columns include release date, domestic opening weekend revenue, lifetime domestic gross, runtime in minutes, genre, and Metacritic critic score. We adjusted the revenue numbers for inflation so that older and newer movies could be compared in today's dollars. The runtime histogram uses the larger top 1,000 movies list.
+We used a movie data set with information on popular films released from the late 1990s through 2026. Each row is one movie. The columns include release date, domestic opening weekend revenue, lifetime domestic gross, runtime in minutes, genre, and Metacritic critic score. We converted the revenue numbers to modern dollar amounts so that the playing field for comparing older and newer movies is equal across the board. The runtime histogram uses the larger top 1,000 movies list.
 
-## Question 1: How has opening weekend revenue changed over time?
+## Question 1: Over movie history, what has been the trend for opening weekend revenue?
+
+**Many movies released after 2020 cluster at lower inflation-adjusted opening weekend revenues, with a few major exceptions.**
 
 **Why it's interesting:** Movie theaters were shut down during COVID-19, and a lot of people got used to streaming movies at home. We wanted to know if that showed up in how much new movies make on their opening weekend.
 
-**How we used Excel:** We added a column that converts each movie's opening weekend revenue into today's dollars, so every movie is compared on the same scale. Then we sorted the movies by release date.
+**How we used Excel:** We took the existing movie data and added a column that converts each movie's opening weekend revenue into a modern dollar amount, so every movie is compared on the same scale.
 
-**How we made the visual:** We made a scatter plot in Excel with release year on the x-axis and inflation-adjusted opening weekend revenue on the y-axis. Then we added a chart title and axis titles. We pasted the chart into PowerPoint and put our main finding in a sentence across the top of the slide.
+**How we made the visual:** We made a scatter plot in Excel with release year on the x-axis and inflation-adjusted opening weekend revenue on the y-axis, then added a chart title and axis titles. We pasted the chart into PowerPoint and put our main finding in a sentence across the top of the slide.
 
-![Since COVID-19, newer movies tend to have lower inflation-adjusted opening weekends.](opening-weekend.png)
+![Inflation-adjusted opening weekend revenue over time](opening-weekend.png)
 
-## Question 2: How long are most of the top 1,000 movies?
+**What we found:** As seen above, it's easy to spot that modern movies since the pandemic have been clustering around a lower dollar amount. This shows that some factors are pulling the industry average for revenue down. But as in everything, there are always outliers, so there is no one universal truth, just an industry trend.
+
+## Question 2: What can be seen with the distribution of the top 1,000 movies?
+
+**Most movies run about 90 to 140 minutes, while fewer long movies create a right-skewed distribution.**
 
 **Why it's interesting:** Some movies are under 90 minutes and others run over three hours. We wanted to see if there is a "normal" length that most movies stick to.
 
 **How we used Excel:** We used the runtime column for the top 1,000 movies and grouped the runtimes into 10-minute bins (69–79, 79–89, and so on). Then we counted how many movies fell into each bin.
 
-**How we made the visual:** We made a histogram in Excel from the runtime column. We set the bin width to 10 minutes, then added a title and axis labels for Movie Duration (Minutes) and Number of Movies. After pasting it into PowerPoint, we added a headline saying that most movies run about two hours and that the longer films make the graph right-skewed.
+**How we made the visual:** We made a histogram in Excel from the runtime column with 10-minute bins, then added a title and axis labels for Movie Duration (Minutes) and Number of Movies. After pasting it into PowerPoint, we added our headline above the chart.
 
-![Most movies run around 90 to 140 minutes, and a few long films create a right skew.](runtime-histogram.png)
+![Distribution of top 1,000 movie durations](runtime-histogram.png)
 
-## Question 3: How does genre relate to critic scores?
+**What we found:** As seen in the graph above, the distribution of movies centralizes around 110 to 120 minutes, showing an industry average for movie length. The reason for the centralization can be pinpointed to movie budgets and existing norms. Some directors like to go a step above and would rather make their movie longer than shorter, as shown by the right skew of this graph. Longer films have more time to show character development and can pace scenes without time limits.
+
+## Question 3: What effect does the genre of the film have on its critic rating?
+
+**The total Metacritic score across movie genres appears to be right-skewed, led by Adventure and lowest for Documentary.**
 
 **Why it's interesting:** Studios have to decide what kinds of movies to make. We wanted to see which genres show up the most among critically reviewed movies, and which ones barely appear.
 
-**How we used Excel:** Many movies are listed under more than one genre, so a movie's Metacritic score counted toward every genre it belongs to. We used SUMIF to add up the Metacritic scores for each of the 21 genres. Then we sorted the totals from highest to lowest.
+**How we used Excel:** Many movies are listed under more than one genre, so a movie's Metacritic score counted toward every genre it belongs to. We added up the Metacritic scores for each of the 21 genres, then sorted the totals from highest to lowest.
 
-**How we made the visual:** We made a horizontal bar chart in Excel from the sorted genre totals, so Adventure is at the top and Documentary is at the bottom. We added axis titles and pasted the chart into PowerPoint. Then we added the headline sentence. The bars are total scores, not averages, so genres with a lot of movies, like Adventure and Action, end up with the biggest totals.
+**How we made the visual:** We made a horizontal bar chart in Excel from the sorted genre totals, so Adventure is at the top and Documentary is at the bottom. We added axis titles, pasted the chart into PowerPoint, and added the headline sentence.
 
-![Adventure has the highest total Metacritic score and Documentary has the lowest.](genre-metacritic.png)
+![Total Metacritic score by movie genre](genre-metacritic.png)
 
-## Question 4: Do movies with better critic ratings make more money?
+**What we found:** Movies that are more tailored to the masses tend to be action, adventure, and comedy, since these appeal to most people. As the graph skews down, some genres do worse than others. War, history, and sports are less popular topics, which can be related to a smaller interest group of movie watchers. Excel clearly ranks which genres are most common in the industry, which can help moviemakers decide what film to make next.
+
+## Question 4: Does revenue relate to a movie's critic rating score?
+
+**Higher critic ratings do not consistently relate to higher domestic box office earnings.**
 
 **Why it's interesting:** Good reviews seem like they should bring in more people. But some movies critics don't like still make a huge amount of money. We wanted to see how strong the connection really is.
 
 **How we used Excel:** For each movie, we matched up its Metascore with its lifetime domestic gross adjusted for inflation. That gave us two columns we could plot against each other.
 
-**How we made the visual:** We made a scatter plot in Excel with Metascore on the x-axis and inflation-adjusted domestic gross on the y-axis. We added a chart title and axis titles and pasted the chart into PowerPoint with the headline above it. Two movies show the exceptions well. Star Wars: The Force Awakens had a score of 59 and earned about $815 million. Harry Potter and the Goblet of Fire had a higher score of 82 but earned about $389 million.
+**How we made the visual:** We made a scatter plot in Excel with Metascore (critic rating) on the x-axis and inflation-adjusted domestic gross on the y-axis. We added a chart title and axis titles, then pasted the chart into PowerPoint with the headline above it.
 
-![Higher critic ratings loosely relate to higher earnings, with clear exceptions.](critic-vs-revenue.png)
+![Domestic revenue compared with critic rating](critic-vs-revenue.png)
 
-## Takeaway
-
-Taken together, the graphs show there is no single formula for a successful movie. Newer movies have tended to open lower since COVID-19. Most movies stay around two hours long. Good reviews help, but advertising, release timing, and loyal fans can matter just as much.
+**What we found:** As seen in the graph above, there is some correlation between critic rating and revenue, but there are definitely outliers. Just because a movie has a high rating doesn't always mean it will pull in more revenue, as seen in the spread of the data. Excel helps us clearly see this, with the x-axis being critic rating and the y-axis being adjusted domestic gross. The point at x = 59 and y = about $800 million is a sharp contrast with the point at x = 82 and y = about $380 million.
