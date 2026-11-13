@@ -4,49 +4,35 @@
     "href": "posts/Data Visualization/index.html",
     "title": "Movie Data Visualization",
     "section": "",
-    "text": "Henry Oglesby\nHolt Zeidler\nLadd Choate\nNoah Simson\nMatthew Chafin"
+    "text": "Team Members:"
   },
   {
-    "objectID": "posts/Data Visualization/index.html#team-members",
-    "href": "posts/Data Visualization/index.html#team-members",
+    "objectID": "posts/Data Visualization/index.html#many-movies-released-after-2020-cluster-at-lower-inflation-adjusted-opening-weekend-revenues-with-a-few-major-exceptions.",
+    "href": "posts/Data Visualization/index.html#many-movies-released-after-2020-cluster-at-lower-inflation-adjusted-opening-weekend-revenues-with-a-few-major-exceptions.",
     "title": "Movie Data Visualization",
-    "section": "",
-    "text": "Henry Oglesby\nHolt Zeidler\nLadd Choate\nNoah Simson\nMatthew Chafin"
+    "section": "Many movies released after 2020 cluster at lower inflation-adjusted opening weekend revenues, with a few major exceptions.",
+    "text": "Many movies released after 2020 cluster at lower inflation-adjusted opening weekend revenues, with a few major exceptions.\n\nOver movie history, what has been the trend for opening weekend revenue? Represented in this graph we have taken existing movie data and converted it to modern dollar amount so that the playing field for comparing data is equal across the board. Seen above, it is clearly easy to spot that modern movies since the pandemic have been clustering around a lower dollar amount, showing that factors are pulling the industry average for revenue down. But as in everything, there are always outliers, so there is no one universal truth, just an industry trend."
   },
   {
-    "objectID": "posts/Data Visualization/index.html#the-data-set",
-    "href": "posts/Data Visualization/index.html#the-data-set",
+    "objectID": "posts/Data Visualization/index.html#most-movies-run-about-90-to-140-minutes-while-fewer-long-movies-create-a-right-skewed-distribution.",
+    "href": "posts/Data Visualization/index.html#most-movies-run-about-90-to-140-minutes-while-fewer-long-movies-create-a-right-skewed-distribution.",
     "title": "Movie Data Visualization",
-    "section": "The Data Set",
-    "text": "The Data Set\nWe used a movie data set with information on popular films released from the late 1990s through 2026. Each row is one movie. The columns include release date, domestic opening weekend revenue, lifetime domestic gross, runtime in minutes, genre, and Metacritic critic score. We converted the revenue numbers to modern dollar amounts so that the playing field for comparing older and newer movies is equal across the board. The runtime histogram uses the larger top 1,000 movies list."
+    "section": "Most movies run about 90 to 140 minutes, while fewer long movies create a right-skewed distribution.",
+    "text": "Most movies run about 90 to 140 minutes, while fewer long movies create a right-skewed distribution.\n\nWhat can be seen with the distribution of the top 1000 movies? As seen in the graph above, the distribution of movies centralizes around one hour and 30 minutes, showing an industry average on movie time. The reason for the centralization can be pinpointed to movie budget and existing norms, but some directors like to go a step above and would rather make their movie longer than shorter, as shown with the right skew of this graph. With the longer films, they have more time to show character development and are able to pace scenes without time limitations."
   },
   {
-    "objectID": "posts/Data Visualization/index.html#question-1-over-movie-history-what-has-been-the-trend-for-opening-weekend-revenue",
-    "href": "posts/Data Visualization/index.html#question-1-over-movie-history-what-has-been-the-trend-for-opening-weekend-revenue",
+    "objectID": "posts/Data Visualization/index.html#the-total-metacritic-score-across-movie-genres-appears-to-be-right-skewed-led-by-adventure-and-lowest-for-documentary.",
+    "href": "posts/Data Visualization/index.html#the-total-metacritic-score-across-movie-genres-appears-to-be-right-skewed-led-by-adventure-and-lowest-for-documentary.",
     "title": "Movie Data Visualization",
-    "section": "Question 1: Over movie history, what has been the trend for opening weekend revenue?",
-    "text": "Question 1: Over movie history, what has been the trend for opening weekend revenue?\nMany movies released after 2020 cluster at lower inflation-adjusted opening weekend revenues, with a few major exceptions.\nWhy it’s interesting: Movie theaters were shut down during COVID-19, and a lot of people got used to streaming movies at home. We wanted to know if that showed up in how much new movies make on their opening weekend.\nHow we used Excel: We took the existing movie data and added a column that converts each movie’s opening weekend revenue into a modern dollar amount, so every movie is compared on the same scale.\nHow we made the visual: We made a scatter plot in Excel with release year on the x-axis and inflation-adjusted opening weekend revenue on the y-axis, then added a chart title and axis titles. We pasted the chart into PowerPoint and put our main finding in a sentence across the top of the slide.\n\n\n\nInflation-adjusted opening weekend revenue over time\n\n\nWhat we found: As seen above, it’s easy to spot that modern movies since the pandemic have been clustering around a lower dollar amount. This shows that some factors are pulling the industry average for revenue down. But as in everything, there are always outliers, so there is no one universal truth, just an industry trend."
+    "section": "The total Metacritic score across movie genres appears to be right-skewed, led by Adventure and lowest for Documentary.",
+    "text": "The total Metacritic score across movie genres appears to be right-skewed, led by Adventure and lowest for Documentary.\n\nWhat effect does the genre of the film have on its critic rating? Movies that are more tailored for the masses would have to be action, adventure, and comedy, as these are applicable to most people, and as seen with the graph skewed down, some genres do worse than others, as in the case with war, history and sports being a less entertaining topic, which can be related to a smaller interest group for movie watchers. Excel clearly ranks which genres are most preferable in the industry, which can help movie makers decide on what film to make next."
   },
   {
-    "objectID": "posts/Data Visualization/index.html#question-2-what-can-be-seen-with-the-distribution-of-the-top-1000-movies",
-    "href": "posts/Data Visualization/index.html#question-2-what-can-be-seen-with-the-distribution-of-the-top-1000-movies",
+    "objectID": "posts/Data Visualization/index.html#higher-critic-ratings-do-not-consistently-relate-to-higher-domestic-box-office-earnings.",
+    "href": "posts/Data Visualization/index.html#higher-critic-ratings-do-not-consistently-relate-to-higher-domestic-box-office-earnings.",
     "title": "Movie Data Visualization",
-    "section": "Question 2: What can be seen with the distribution of the top 1,000 movies?",
-    "text": "Question 2: What can be seen with the distribution of the top 1,000 movies?\nMost movies run about 90 to 140 minutes, while fewer long movies create a right-skewed distribution.\nWhy it’s interesting: Some movies are under 90 minutes and others run over three hours. We wanted to see if there is a “normal” length that most movies stick to.\nHow we used Excel: We used the runtime column for the top 1,000 movies and grouped the runtimes into 10-minute bins (69–79, 79–89, and so on). Then we counted how many movies fell into each bin.\nHow we made the visual: We made a histogram in Excel from the runtime column with 10-minute bins, then added a title and axis labels for Movie Duration (Minutes) and Number of Movies. After pasting it into PowerPoint, we added our headline above the chart.\n\n\n\nDistribution of top 1,000 movie durations\n\n\nWhat we found: As seen in the graph above, the distribution of movies centralizes around 110 to 120 minutes, showing an industry average for movie length. The reason for the centralization can be pinpointed to movie budgets and existing norms. Some directors like to go a step above and would rather make their movie longer than shorter, as shown by the right skew of this graph. Longer films have more time to show character development and can pace scenes without time limits."
-  },
-  {
-    "objectID": "posts/Data Visualization/index.html#question-3-what-effect-does-the-genre-of-the-film-have-on-its-critic-rating",
-    "href": "posts/Data Visualization/index.html#question-3-what-effect-does-the-genre-of-the-film-have-on-its-critic-rating",
-    "title": "Movie Data Visualization",
-    "section": "Question 3: What effect does the genre of the film have on its critic rating?",
-    "text": "Question 3: What effect does the genre of the film have on its critic rating?\nThe total Metacritic score across movie genres appears to be right-skewed, led by Adventure and lowest for Documentary.\nWhy it’s interesting: Studios have to decide what kinds of movies to make. We wanted to see which genres show up the most among critically reviewed movies, and which ones barely appear.\nHow we used Excel: Many movies are listed under more than one genre, so a movie’s Metacritic score counted toward every genre it belongs to. We added up the Metacritic scores for each of the 21 genres, then sorted the totals from highest to lowest.\nHow we made the visual: We made a horizontal bar chart in Excel from the sorted genre totals, so Adventure is at the top and Documentary is at the bottom. We added axis titles, pasted the chart into PowerPoint, and added the headline sentence.\n\n\n\nTotal Metacritic score by movie genre\n\n\nWhat we found: Movies that are more tailored to the masses tend to be action, adventure, and comedy, since these appeal to most people. As the graph skews down, some genres do worse than others. War, history, and sports are less popular topics, which can be related to a smaller interest group of movie watchers. Excel clearly ranks which genres are most common in the industry, which can help moviemakers decide what film to make next."
-  },
-  {
-    "objectID": "posts/Data Visualization/index.html#question-4-does-revenue-relate-to-a-movies-critic-rating-score",
-    "href": "posts/Data Visualization/index.html#question-4-does-revenue-relate-to-a-movies-critic-rating-score",
-    "title": "Movie Data Visualization",
-    "section": "Question 4: Does revenue relate to a movie’s critic rating score?",
-    "text": "Question 4: Does revenue relate to a movie’s critic rating score?\nHigher critic ratings do not consistently relate to higher domestic box office earnings.\nWhy it’s interesting: Good reviews seem like they should bring in more people. But some movies critics don’t like still make a huge amount of money. We wanted to see how strong the connection really is.\nHow we used Excel: For each movie, we matched up its Metascore with its lifetime domestic gross adjusted for inflation. That gave us two columns we could plot against each other.\nHow we made the visual: We made a scatter plot in Excel with Metascore (critic rating) on the x-axis and inflation-adjusted domestic gross on the y-axis. We added a chart title and axis titles, then pasted the chart into PowerPoint with the headline above it.\n\n\n\nDomestic revenue compared with critic rating\n\n\nWhat we found: As seen in the graph above, there is some correlation between critic rating and revenue, but there are definitely outliers. Just because a movie has a high rating doesn’t always mean it will pull in more revenue, as seen in the spread of the data. Excel helps us clearly see this, with the x-axis being critic rating and the y-axis being adjusted domestic gross. The point at x = 59 and y = about $800 million is a sharp contrast with the point at x = 82 and y = about $380 million."
+    "section": "Higher critic ratings do not consistently relate to higher domestic box office earnings.",
+    "text": "Higher critic ratings do not consistently relate to higher domestic box office earnings.\n\nDoes revenue relate to a movie’s critic rating score? As seen in the graph above, there is some correlation to critic rating and revenue, but there are definitely outliers. Just because a movie has a high rating doesn’t always mean it will pull in more revenue, as seen in the spread of the data. Excel helps us clearly see that with our x being critic rating and y being domestic gross adjusted: points X 59 and Y 800 million have a sharp contrast with X 82 and Y 380 million."
   },
   {
     "objectID": "projects.html",
