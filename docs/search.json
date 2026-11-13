@@ -1,10 +1,66 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/Data Visualization/index.html",
+    "href": "posts/Data Visualization/index.html",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Henry Oglesby\nHolt Zeidler\nLadd Choate\nNoah Simson\nMatthew Chafin"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#team-members",
+    "href": "posts/Data Visualization/index.html#team-members",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
+    "section": "",
+    "text": "Henry Oglesby\nHolt Zeidler\nLadd Choate\nNoah Simson\nMatthew Chafin"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#the-data-set",
+    "href": "posts/Data Visualization/index.html#the-data-set",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
+    "section": "The Data Set",
+    "text": "The Data Set\nWe used a movie data set with information on popular films released from the late 1990s through 2026. Each row is one movie. The columns include release date, domestic opening weekend revenue, lifetime domestic gross, runtime in minutes, genre, and Metacritic critic score. We adjusted the revenue numbers for inflation so that older and newer movies could be compared in today’s dollars. The runtime histogram uses the larger top 1,000 movies list."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#question-1-how-has-opening-weekend-revenue-changed-over-time",
+    "href": "posts/Data Visualization/index.html#question-1-how-has-opening-weekend-revenue-changed-over-time",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
+    "section": "Question 1: How has opening weekend revenue changed over time?",
+    "text": "Question 1: How has opening weekend revenue changed over time?\nWhy it’s interesting: Movie theaters were shut down during COVID-19, and a lot of people got used to streaming movies at home. We wanted to know if that showed up in how much new movies make on their opening weekend.\nHow we used Excel: We added a column that converts each movie’s opening weekend revenue into today’s dollars, so every movie is compared on the same scale. Then we sorted the movies by release date.\nHow we made the visual: We made a scatter plot in Excel with release year on the x-axis and inflation-adjusted opening weekend revenue on the y-axis. Then we added a chart title and axis titles. We pasted the chart into PowerPoint and put our main finding in a sentence across the top of the slide.\n\n\n\nSince COVID-19, newer movies tend to have lower inflation-adjusted opening weekends."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#question-2-how-long-are-most-of-the-top-1000-movies",
+    "href": "posts/Data Visualization/index.html#question-2-how-long-are-most-of-the-top-1000-movies",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
+    "section": "Question 2: How long are most of the top 1,000 movies?",
+    "text": "Question 2: How long are most of the top 1,000 movies?\nWhy it’s interesting: Some movies are under 90 minutes and others run over three hours. We wanted to see if there is a “normal” length that most movies stick to.\nHow we used Excel: We used the runtime column for the top 1,000 movies and grouped the runtimes into 10-minute bins (69–79, 79–89, and so on). Then we counted how many movies fell into each bin.\nHow we made the visual: We made a histogram in Excel from the runtime column. We set the bin width to 10 minutes, then added a title and axis labels for Movie Duration (Minutes) and Number of Movies. After pasting it into PowerPoint, we added a headline saying that most movies run about two hours and that the longer films make the graph right-skewed.\n\n\n\nMost movies run around 90 to 140 minutes, and a few long films create a right skew."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#question-3-how-does-genre-relate-to-critic-scores",
+    "href": "posts/Data Visualization/index.html#question-3-how-does-genre-relate-to-critic-scores",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
+    "section": "Question 3: How does genre relate to critic scores?",
+    "text": "Question 3: How does genre relate to critic scores?\nWhy it’s interesting: Studios have to decide what kinds of movies to make. We wanted to see which genres show up the most among critically reviewed movies, and which ones barely appear.\nHow we used Excel: Many movies are listed under more than one genre, so a movie’s Metacritic score counted toward every genre it belongs to. We used SUMIF to add up the Metacritic scores for each of the 21 genres. Then we sorted the totals from highest to lowest.\nHow we made the visual: We made a horizontal bar chart in Excel from the sorted genre totals, so Adventure is at the top and Documentary is at the bottom. We added axis titles and pasted the chart into PowerPoint. Then we added the headline sentence. The bars are total scores, not averages, so genres with a lot of movies, like Adventure and Action, end up with the biggest totals.\n\n\n\nAdventure has the highest total Metacritic score and Documentary has the lowest."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#question-4-do-movies-with-better-critic-ratings-make-more-money",
+    "href": "posts/Data Visualization/index.html#question-4-do-movies-with-better-critic-ratings-make-more-money",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
+    "section": "Question 4: Do movies with better critic ratings make more money?",
+    "text": "Question 4: Do movies with better critic ratings make more money?\nWhy it’s interesting: Good reviews seem like they should bring in more people. But some movies critics don’t like still make a huge amount of money. We wanted to see how strong the connection really is.\nHow we used Excel: For each movie, we matched up its Metascore with its lifetime domestic gross adjusted for inflation. That gave us two columns we could plot against each other.\nHow we made the visual: We made a scatter plot in Excel with Metascore on the x-axis and inflation-adjusted domestic gross on the y-axis. We added a chart title and axis titles and pasted the chart into PowerPoint with the headline above it. Two movies show the exceptions well. Star Wars: The Force Awakens had a score of 59 and earned about $815 million. Harry Potter and the Goblet of Fire had a higher score of 82 but earned about $389 million.\n\n\n\nHigher critic ratings loosely relate to higher earnings, with clear exceptions."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#takeaway",
+    "href": "posts/Data Visualization/index.html#takeaway",
+    "title": "What Makes a Movie Successful? A Look at Box Office Data",
+    "section": "Takeaway",
+    "text": "Takeaway\nTaken together, the graphs show there is no single formula for a successful movie. Newer movies have tended to open lower since COVID-19. Most movies stay around two hours long. Good reviews help, but advertising, release timing, and loyal fans can matter just as much."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nSep 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Makes a Movie Successful? A Look at Box Office Data\n\n\n\n\n\n\nHenry Oglesby, Holt Zeidler, Ladd Choate, Noah Simson, Matthew Chafin\n\n\nNov 13, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -21,10 +77,10 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nSep 21, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]
